@@ -16,7 +16,7 @@ header {
 /* ------------------- header ------------------- */
 h1 {
   font-size: 100px;
-  font-family: "Brush Script MT";
+  font-family: "Brush Script MT", "Abril Fatface", Courier, monospace;
   color: rgba(225, 170, 160, 1);
   margin: -10px 0 0 0;
 }
@@ -59,7 +59,7 @@ article {
 
 .main {
   color: #302c2c;
-  font-family: "Abril Fatface";
+  font-family: "Abril Fatface", Courier, monospace;
   font-size: 30px;
   background: rgba(75, 0, 0, 0.2);
   margin: 0 auto;
