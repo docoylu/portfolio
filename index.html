@@ -1,46 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="/normalize.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css">
-  </head>
+
+<!---------------------- head ---------------------->
+<head>
+  <title>Lance Docoy</title>
+  <link rel="icon" type="image/x-icon" href ="images/head/icon.png">
+
+  <!-- css -->
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <!-- font styles -->
+  <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Judson' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bigshot One' rel='stylesheet'>
+</head>
+
+<!---------------------- body ---------------------->
+<body>
+  <!------------ header ------------>
+  <header>
+    <!-- picture, name, and description -->
+    <img class="header-pic" src="images/body/header/me.jpg" alt="Avatar">
+    <h1>Lance Docoy</h1>
+    <h2>Thinkful Student</h2>
+    <nav>
+      <!-- make navigation options a list -->
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li>|</li>
+        <li><a href="#about-me">About Me</a></li>
+        <li>|</li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
   
-  <body>
-    <header>
-      <h1></h1>
-    </header>
-    
-    <main>
-      <article>
-        <div>
-          <h2>Intro
-          <p>
-        </div>
+  <!------------ main ------------>
+  <main>
+    <!----- intro section ----->
+    <article id="intro" class="intro">
+      <h2 class="main">Introduction</h2>
+      <article class="pink-background">
+        <h3>Who am I?</h3>
+          <!-- make 3 sections to answer question -->
+          <section>
+            <h4>Past</h4>
+            <p>When I was in high school, I've learned how to code with HTML and Python and have worked with Arduino.</p>
+          </section>
+          <section>
+            <h4>Present</h4>
+            <p>I graduated high school this year and am trying to pursue a career in software engineering or web development.</p>
+          </section>
+          <section>
+            <h4>Future</h4>
+            <p>I will be getting a job in tech as a software developer once I graduate from Thinkful.</p>
+          </section>
       </article>
-        
-        <hr>
-        
-      <article>
-        <div>
-          <h2>About Me
-          <p>
-        </div>
+      <article class="where pink-background">
+        <h3>Where am I from?</h3>
+        <p>I used to live in the Philippines but I recently just moved to Nenana, Alaska.</p>
       </article>
-        
-        <hr>
-        
-      <article>
-        <div>
-          <h2>Contact
-          <p>
-        </div>
+
+      <!-- section footer image -->
+      <img class="body-pic" src="images/body/main/body-pic-one.jpg" alt="Black and White Abstract Art">
+    </article>
+
+    <hr>
+
+    <!----- about me section ----->
+    <article id="about-me">
+      <h2 class="main">About Me</h2>
+      <article class="pink-background">
+        <p>When I worked with HTML and Python back in high school, it made me realize how much I enjoy coding and how I want to continue doing this in my future.</p>
+        <p>I've worked harmoniously with my fellow classmates back when I was coding in high school. We made an automatic trash can and a mini car where my partner built the model and I made the code.</p>
+        <p>We were successful with our projects and I loved working with my fellow classmates when coding. Working with other students at Thinkful will be a delight once I get enrolled.
       </article>
-    </main>
-    
-    <footer>
-    </footer>
-  </body>
+      <article class="interests pink-background">
+        <h3>Other Interests</h3>
+        <section>
+        <!-- ordered list of interests -->
+        <ol>
+          <li>I grew up being in the center stage. I love
+            <!-- unordered list of specific interests -->
+            <ul>
+              <li>singing</li>
+              <li>dancing</li>
+              <li>acting</li>
+            </ul>
+          </li>
+          <li>I also enjoy doing sports such as
+            <!-- unordered list of specific interests -->
+            <ul>
+              <li>swimming</li>
+              <li>volleyball</li>
+            </ul>
+          </li>
+          <li>Lastly, I love to read books.
+          </li>
+        </ol>
+        </section>
+      </article>
+
+      <!-- section footer image -->
+      <img class="body-pic" src="images/body/main/body-pic-two.jpg" alt="Black and White Abstract Art">
+    </article>
+
+    <!-- horizontal ruler -->
+    <hr>
+
+    <!----- contact section ----->
+    <article id="contact" class="contact">
+      <h2 class="main">Contact Me</h2>
+      <!-- make contact links -->
+      <p class="pink-background">
+        If you need to contact me, please feel free to reach me on <a href="https://www.linkedin.com/in/docoylance/" class="contact-link"><bold>LinkedIn</bold></a> or <a href="https://github.com/docoylance" class="contact-link"><bold>Github</bold></a>. You can also email me <a href="mailto:lancedocoy@gmail.com" class="contact-link"><i>here</i></a>. 
+      </p>
+
+      <!-- section footer image -->
+      <img class="body-pic" src="images/body/main/body-pic-three.webp" alt="Black and White Abstract Art">
+    </article>
+  </main>
+  
+  <!------------ footer ------------>
+  <footer>
+    <p>Ⓒ Lance Luther Docoy</h5>
+  </footer>
+</body>
+
 </html>
