@@ -17,7 +17,7 @@ header {
 h1 {
   font-size: 100px;
   font-family: "Brush Script MT", "Abril Fatface", Courier, monospace;
-  color: rgba(225, 170, 160, 1);
+  color: rgb(136, 84, 84);
   margin: -10px 0 0 0;
 }
 
@@ -204,7 +204,7 @@ a:active,
 
 .header-pic {
   margin: 40px 0px 0px 0px;
-  border: 7px solid rgba(225, 170, 160, 1);
+  border: 7px solid rgb(136, 84, 84);
   border-radius: 50%;
   width: 175px;
   height: 175px;
